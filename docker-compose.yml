@@ -7,4 +7,4 @@ services:
     - ./:/app
     #stdin_open: true
     #tty: true
-  
+    command: ["python data_vis.py"]

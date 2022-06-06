@@ -1,20 +1,3 @@
-<h2>Python Data Visualization Project</h2>
-
-
-<p float="left">
-    <p>This project creates a html graph with Python Bokeh library.<br>
-    It uses data from university statistics in form of a csv file <br>
-    I use Pandas package to get the relevant data from file <br>
-    and bokeh to draw the graph with options relevant for me.
-    <br>Project uses: python, pandas, bokeh, docker</p>	
-    <img src="graph.png" width="550" height="360"/>
-</p>
-
- 
-
-
-`code`
-```python
 import pandas as pd
 from bokeh.io import output_file,show
 from bokeh.plotting import figure
@@ -45,7 +28,3 @@ def create_graph(file_name :str) -> None:
 
 if __name__ == '__main__':
     create_graph("bachelors.csv")
-
-
-
-```
